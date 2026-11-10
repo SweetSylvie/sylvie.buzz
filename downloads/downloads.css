@@ -1,0 +1,17 @@
+
+.category-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(189, 114, 208);
+  margin:1rem;
+  flex-grow: 100;
+  height: 65%;
+  flex-grow: 1;
+}
+
+#category-center {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
