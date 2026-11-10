@@ -1,0 +1,107 @@
+:root {
+  --primary-bg-color: #442c48;
+  --primary-color: #c154bd;
+  --primary-light-color: #f7abf5;
+  --primary-text-color: #f1d1f5;
+}
+        
+        html, body {
+            height: 100%;          /* full height */
+            margin: 0;             /* remove default margin */
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--primary-bg-color);
+        }
+
+        #text{
+            color: var(--primary-text-color);
+        }
+
+        #header{
+            color: var(--primary-light-color);
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+        footer {
+            flex-shrink: 0;
+            background:var(--primary-light-color);
+            padding:0.2rem;
+            text-align:center;
+        }
+
+
+
+#source-btn{
+    border-radius: 0.8rem;
+    background-color: rgb(226, 40, 255);
+    font-size: 1.3rem;
+    padding: 0.8rem;
+    font-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+
+#links-text{
+  font-size:x-large;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
+
+#contact-footer{
+  text-decoration: none;
+  color: #000000
+}
+
+
+/* code for navigation from w3schools */
+
+.topnav {
+  overflow: hidden;
+  background-color: #7825a2;
+}
+
+.topnav a {
+  float: left;
+  color: var(--primary-text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #c97bf0;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid rgb(189, 114, 208);
+  margin:1rem;
+  }
+
+
+.title-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border: 3px solid var(--primary-color);
+  margin: 1rem;
+  border-radius: 1rem;
+  }
