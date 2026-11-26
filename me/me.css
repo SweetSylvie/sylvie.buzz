@@ -1,0 +1,85 @@
+#who-title{
+    color: var(--primary-light-color);
+    font-weight: 700;
+    font-size: larger;
+}
+.me{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  border: 3px solid rgb(189, 114, 208);
+  margin:1rem;
+}
+a{
+  color: var(--primary-light-color);
+  text-decoration: none;
+}
+
+/* LINKS */
+.links-div{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  border: 3px solid rgb(189, 114, 208);
+  margin: 1rem;
+  border-radius: 1.4rem;
+  box-shadow: 2px 2px 10px 6px rgb(115, 56, 131);
+  background-color: #7930b4;
+}
+
+#email-div{
+  border: 1px solid rgb(189, 114, 208);
+}
+#email-text{
+  margin: 1rem;
+  color: #6D4AFF;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#email-link{
+  margin: 1rem;
+  border: blueviolet;
+  background-color: rgb(205, 39, 211);
+  border-radius: 1rem;
+  padding: .4rem;
+  color: black;
+}
+
+#discord-div{
+  border: 1px solid rgb(189, 114, 208);
+}
+#discord-text{
+  margin: 1rem;
+  color: #5865F2;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#discord-link{
+  margin: 1rem;
+}
+
+#github-div{
+  border: 1px solid rgb(189, 114, 208);
+}
+#github-text{
+  margin: 1rem;
+  color: var(--primary-color);
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#github-link{
+  margin: 1rem;
+}
+
+#spotify-div{
+  border: 1px solid rgb(189, 114, 208);
+}
+#spotify-text{
+  margin: 1rem;
+  color: #1ED760;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#spotify-link{
+  margin: 1rem;
+}
