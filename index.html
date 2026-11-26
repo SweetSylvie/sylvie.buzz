@@ -10,6 +10,7 @@
     <link rel="prefetch" href="source">
     <link rel="prefetch" href="me">
     <link rel="prefetch" href="downloads">
+    <link rel="prefetch" href="blogs">
 </head>
 <body>
 
@@ -18,6 +19,7 @@
         <a id="t-btn" href="downloads">Downloads</a>
         <a id="t-btn" href="source">Source Code</a>
         <a id="t-btn" href="me">Me</a>
+        <a id="t-btn" href="../blogs">Blogs</a>
     </nav>
 
 <div id="center">
@@ -29,6 +31,10 @@
 </div>
 
     <main>
+        <div class="overlay" id="overlay" style="display: none;">
+            <p>currently there is no version of the site yet for your screen dimensions, press "acknowledge" to continue to the desktop site (which may not fully work)</p>
+            <button onclick="acknowledgeDesktop()">acknowledge</button>
+        </div>
         <div class="center">
         </section id="links">
             <p id="links-text">quick links</p>
@@ -36,11 +42,16 @@
             <a href="me" id="source-btn">Me</a>
             <a href="downloads" id="source-btn">Downloads</a>
         <section>
-        </section class="current">
-            <div>
-                <p></p>
-            </div>
-        <section>
+        </div>
+        <div class="center">
+            </section id="posts">
+            <object id="blog" data="blog-files/1/1.html" width="300" height="fit">
+                An unecpected error has occurred :c
+            </object>
+            <object id="blog" data="blog-files/2/2.html" width="300" height="fit">
+                An unecpected error has occurred :c
+            </object>
+            <section>
         </div>
     </main>
 
